@@ -1,6 +1,7 @@
 const Footer = () => {
   return (
     <footer>
+        <div className="bg-img">
         <div className="container top-footer">
             <div className="list">
                 <ul className="dc-comics ">
@@ -95,9 +96,23 @@ const Footer = () => {
                 " />
             </div>
         </div>
+        </div>
         <div className="footer-nav">
-            <div className="sign-up"></div>
-            <div className="social"></div>
+            <div className="container layout-footer">
+            <div className="sign-up">
+                <button>SIGN-UP NOW!</button>
+            </div>
+            <div className="social">
+                <ul>
+                    <li className="follow-us">FOLLOW US</li>
+                    <li><img src="/src/assets/img/footer-facebook.png" alt="" /></li>
+                    <li><img src="/src/assets/img/footer-twitter.png" alt="" /></li>
+                    <li><img src="/src/assets/img/footer-youtube.png" alt="" /></li>
+                    <li><img src="/src/assets/img/footer-pinterest.png" alt="" /></li>
+                    <li><img src="/src/assets/img/footer-periscope.png.png" alt="" /></li>      
+                </ul>
+            </div>
+        </div>
         </div>
     </footer>
   )

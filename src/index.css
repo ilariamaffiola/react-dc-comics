@@ -73,7 +73,7 @@ main ul li img{
 
 }
 footer{
-  background-image: url('/src/assets/img/footer-bg.jpg');
+  
   position: relative;
   max-height: 400px;
 }
@@ -84,7 +84,6 @@ footer{
 footer ul{
   list-style-type: none;
   margin: 0 8px;
-  padding-bottom: 40px ;
 }
 footer ul li a{
   text-decoration: none;
@@ -95,6 +94,10 @@ footer ul li a{
 .top-footer{
   display: flex;
   justify-content: space-between;
+  
+}
+.bg-img{
+  background-image: url('/src/assets/img/footer-bg.jpg');
 }
 .logo-footer{
   display: flex;
@@ -104,7 +107,30 @@ footer ul li a{
 .logo-footer img{
   width: 60%;
 }
-
+.footer-nav{
+  background-color: rgb(75, 75, 75);
+}
+.layout-footer{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.social ul{
+  display:flex;
+  align-items: center;
+}
+.social ul li{
+  padding: 0 5px;
+}
+.social ul li img{
+  width: 20px;
+}
+.follow-us{
+  color: rgb(33, 33, 163); 
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
 .top-list{
   color: white;
   padding:  25px  0 8px  0 ;
@@ -122,6 +148,12 @@ footer ul li a{
 }
 .digital-comics{
   width: 25px;
+}
+.sign-up button{
+  padding: 8px;
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(100, 149, 223);
+  color: white;
 }
 
   
