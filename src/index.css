@@ -175,5 +175,30 @@ footer ul li a{
 .lay-comics{
   position: relative;
 }
+.card-img img{
+  width: 100%;
+  object-fit: cover;
+  object-position: cover;
+}
+.card-img{
+  width: 80px;
+  height: 80px;
+}
+.cards{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;;
+}
+.card-title h5{
+  color: white;
+  font-size: 8px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.card{
+  width: 14%;
+}
+
   
 
