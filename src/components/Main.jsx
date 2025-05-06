@@ -2,8 +2,10 @@
 const Main = () => {
   return (
     <main>
+        <div className="jumbotron"></div>
         <div className="bg-black">
-            <div className="container">
+            <div className="container lay-comics">
+                <button className="button-series">CURRENT SERIES</button>
                 <h3>--&gt; Content goes here &lt;--</h3>
             </div>
         </div>
