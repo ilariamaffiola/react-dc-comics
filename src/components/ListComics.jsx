@@ -1,4 +1,5 @@
 import React from 'react';
+import ComicCard from './ComicCard';
 const comics = [
     {
       id: 1,
@@ -60,7 +61,7 @@ const comics = [
       id: 5,
       title: "Batman #56",
       description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-      thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+      thumb: "https://karmakomix.it/wp-content/uploads/2023/03/M1BATM068_0.webp",
       price: "$3.99",
       series: "Batman",
       sale_date: "2018-10-03",
@@ -153,5 +154,22 @@ const comics = [
       writers: ["Joëlle Jones"],
     },
   ];
-  
-export default comics;  
+  export default function ListComics() {
+    return(
+    <div className='cards'>
+      <ComicCard title={comics[0].series} img={comics[0].thumb} />
+      <ComicCard title={comics[1].series} img={comics[1].thumb} />
+      <ComicCard  title={comics[2].series} img={comics[2].thumb}/>
+      <ComicCard  title={comics[3].series} img={comics[3].thumb}/>
+      <ComicCard  title={comics[4].series} img={comics[4].thumb}/>
+      <ComicCard  title={comics[5].series} img={comics[5].thumb}/>
+      <ComicCard  title={comics[6].series} img={comics[6].thumb}/>
+      <ComicCard  title={comics[7].series} img={comics[7].thumb}/>
+      <ComicCard  title={comics[8].series} img={comics[8].thumb}/>
+      <ComicCard  title={comics[9].series} img={comics[9].thumb}/>
+      <ComicCard  title={comics[10].series} img={comics[10].thumb}/>
+      <ComicCard  title={comics[11].series} img={comics[11].thumb}/>
+    </div>
+  )
+  }
+

@@ -1,5 +1,5 @@
 import React from "react"
-import ComicCard from "./ComicCard"
+import ListComics from "./ListComics"
 const Main = () => {
   return (
     <main>
@@ -7,8 +7,7 @@ const Main = () => {
         <div className="bg-black">
             <div className="container lay-comics">
                 <button className="button-series">CURRENT SERIES</button>
-                <ComicCard />
-                <h3>--&gt; Content goes here &lt;--</h3>
+                <ListComics/>
             </div>
         </div>
         <div className="bg-light-blue">
