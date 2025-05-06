@@ -1,4 +1,4 @@
-
+import React from "react"
 const Main = () => {
   return (
     <main>
@@ -6,6 +6,7 @@ const Main = () => {
         <div className="bg-black">
             <div className="container lay-comics">
                 <button className="button-series">CURRENT SERIES</button>
+                
                 <h3>--&gt; Content goes here &lt;--</h3>
             </div>
         </div>
