@@ -8,6 +8,9 @@ const Main = () => {
             <div className="container lay-comics">
                 <button className="button-series">CURRENT SERIES</button>
                 <ListComics/>
+                <div className="col-12">
+                    <button>LOAD MORE</button>
+                </div>
             </div>
         </div>
         <div className="bg-light-blue">
