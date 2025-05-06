@@ -78,6 +78,7 @@ footer{
 }
 .list{
   display: flex;
+  padding: 50px 0;
 
 }
 footer ul{
@@ -93,6 +94,8 @@ footer ul li a{
 .top-footer{
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+
   
 }
 .bg-img{
@@ -103,10 +106,13 @@ footer ul li a{
 .logo-footer{
   display: flex;
   justify-content: end;
-  
+  overflow: hidden;
+  padding: 20px 0;
 }
 .logo-footer img{
-  width: 60%;
+  width: 100%;
+  margin: -130px 0;
+  
 
 }
 .footer-nav{
