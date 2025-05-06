@@ -11,7 +11,7 @@ header img{
   padding: 15px;
 }
 header{
-  height: 80px;
+  /* height: 80px; */
   display: flex;
   justify-content: space-between;
 }
@@ -50,13 +50,13 @@ main ul{
   display: flex;
   list-style: none;
   padding: 35px 0;
-  height: 100px;
+  /* height: 100px; */
   justify-content: space-between;
 }
 main ul li{
   padding: 0 20px;
   display: flex;
-  height: 50%;
+  /* height: 50%; */
   align-items: center;
 
 }
@@ -73,9 +73,8 @@ main ul li img{
 
 }
 footer{
-  
-  position: relative;
-  max-height: 400px;
+  /* position: relative; */
+  /* max-height: 400px; */
 }
 .list{
   display: flex;
@@ -98,6 +97,8 @@ footer ul li a{
 }
 .bg-img{
   background-image: url('/src/assets/img/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .logo-footer{
   display: flex;
@@ -106,6 +107,7 @@ footer ul li a{
 }
 .logo-footer img{
   width: 60%;
+
 }
 .footer-nav{
   background-color: rgb(75, 75, 75);
