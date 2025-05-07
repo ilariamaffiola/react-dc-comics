@@ -3,9 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 body{
   font-family: 'Open Sans', sans-serif; 
 }
+/*HEADER*/
 header img{
   max-width: 65%;
   padding: 15px;
@@ -15,21 +22,13 @@ header{
   display: flex;
   justify-content: space-between;
 }
-
-.container{
-  max-width: 1080px;
-  margin: 0 auto;
-}
-
 header ul{
   display: flex;
   list-style: none;
-  align-items: center;
-  
+  align-items: center; 
 }
 header ul li{
-  padding: 0 10px;
-
+  padding: 0 10px; 
 }
 header ul li a{
   text-decoration: none;
@@ -41,6 +40,9 @@ header ul li a:hover{
   color: rgb(47, 134, 192);
   border-bottom: 2px solid rgb(47, 134, 192);
 }
+
+/*MAIN*/
+
 main h3{
   font-size: 18px;
   color: white;
@@ -58,7 +60,7 @@ main ul li{
   display: flex;
   /* height: 50%; */
   align-items: center;
-
+  
 }
 main ul li a{
   text-decoration: none;
@@ -70,86 +72,7 @@ main ul li img{
   width: 30px;
   margin: 0px 8px;
   padding-top: 10px;
-
-}
-footer{
-  /* position: relative; */
-  /* max-height: 400px; */
-}
-.list{
-  display: flex;
-  padding: 50px 0;
-
-}
-footer ul{
-  list-style-type: none;
-  margin: 0 8px;
-}
-footer ul li a{
-  text-decoration: none;
-  color: rgb(124, 124, 124);
-  font-size: 10px;
-
-}
-.top-footer{
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-
   
-}
-.bg-img{
-  background-image: url('/src/assets/img/footer-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.logo-footer{
-  display: flex;
-  justify-content: end;
-  overflow: hidden;
-  padding: 20px 0;
-}
-.logo-footer img{
-  width: 100%;
-  margin: -130px 0;
-  
-
-}
-.footer-nav{
-  background-color: rgb(75, 75, 75);
-}
-.layout-footer{
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-.social ul{
-  display:flex;
-  align-items: center;
-}
-.social ul li{
-  padding: 0 5px;
-}
-.social ul li img{
-  width: 20px;
-}
-.follow-us{
-  color: rgb(33, 33, 163); 
-  margin-right: 8px;
-  font-size: 14px;
-  font-weight: 600;
-}
-.top-list{
-  color: white;
-  padding:  25px  0 8px  0 ;
-  font-weight: 600;
-  font-size: 12px;
-}
-.bg-black{
-  background-color: black;
-}
-.bg-light-blue{
-  background-color: rgb(65, 159, 221);
 }
 .shop-locator{
   width: 20px;
@@ -157,12 +80,7 @@ footer ul li a{
 .digital-comics{
   width: 25px;
 }
-.sign-up button{
-  padding: 8px;
-  background-color: rgb(75, 75, 75);
-  border: 1px solid rgb(100, 149, 223);
-  color: white;
-}
+
 .jumbotron{
   background-image: url('/src/assets/img/jumbotron.jpg');
   background-size: cover;
@@ -211,14 +129,14 @@ footer ul li a{
 }
 .card{
   width: 14%;
-
+  
 }
 .col-12{
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 25px 0;
-
+  
 }
 .col-12 button{
   padding: 8px 45px;
@@ -227,6 +145,85 @@ footer ul li a{
   color: white;
   font-weight: 700;;
 }
-
+/*FOOTER*/
+.list{
+  display: flex;
+  padding: 50px 0;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0 8px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: rgb(124, 124, 124);
+  font-size: 10px;
   
+}
+.top-footer{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden; 
+}
+.bg-img{
+  background-image: url('/src/assets/img/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo-footer{
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.logo-footer img{
+  width: 100%;
+  margin: -130px 0;
+}
+.footer-nav{
+  background-color: rgb(75, 75, 75);
+}
+.layout-footer{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.social ul{
+  display:flex;
+  align-items: center;
+}
+.social ul li{
+  padding: 0 5px;
+}
+.social ul li img{
+  width: 20px;
+}
+.follow-us{
+  color: rgb(33, 33, 163); 
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.top-list{
+  color: white;
+  padding:  25px  0 8px  0 ;
+  font-weight: 600;
+  font-size: 12px;
+}
+.sign-up button{
+  padding: 8px;
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(100, 149, 223);
+  color: white;
+}
+
+/*UTILITIES*/
+
+.bg-black{
+  background-color: black;
+}
+.bg-light-blue{
+  background-color: rgb(65, 159, 221);
+}
+
 
