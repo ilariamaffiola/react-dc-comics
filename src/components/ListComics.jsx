@@ -154,22 +154,24 @@ const comics = [
       writers: ["Joëlle Jones"],
     },
   ];
-  export default function ListComics() {
-    return(
-    <div className='cards'>
-      <ComicCard title={comics[0].series} img={comics[0].thumb} />
-      <ComicCard title={comics[1].series} img={comics[1].thumb} />
-      <ComicCard  title={comics[2].series} img={comics[2].thumb}/>
-      <ComicCard  title={comics[3].series} img={comics[3].thumb}/>
-      <ComicCard  title={comics[4].series} img={comics[4].thumb}/>
-      <ComicCard  title={comics[5].series} img={comics[5].thumb}/>
-      <ComicCard  title={comics[6].series} img={comics[6].thumb}/>
-      <ComicCard  title={comics[7].series} img={comics[7].thumb}/>
-      <ComicCard  title={comics[8].series} img={comics[8].thumb}/>
-      <ComicCard  title={comics[9].series} img={comics[9].thumb}/>
-      <ComicCard  title={comics[10].series} img={comics[10].thumb}/>
-      <ComicCard  title={comics[11].series} img={comics[11].thumb}/>
-    </div>
-  )
-  }
-
+  // export default function ListComics() {
+  //   return(
+  //   <div className='cards'>
+  //     <ComicCard title={comics[0].series} img={comics[0].thumb} />
+  //     <ComicCard title={comics[1].series} img={comics[1].thumb} />
+  //     <ComicCard  title={comics[2].series} img={comics[2].thumb}/>
+  //     <ComicCard  title={comics[3].series} img={comics[3].thumb}/>
+  //     <ComicCard  title={comics[4].series} img={comics[4].thumb}/>
+  //     <ComicCard  title={comics[5].series} img={comics[5].thumb}/>
+  //     <ComicCard  title={comics[6].series} img={comics[6].thumb}/>
+  //     <ComicCard  title={comics[7].series} img={comics[7].thumb}/>
+  //     <ComicCard  title={comics[8].series} img={comics[8].thumb}/>
+  //     <ComicCard  title={comics[9].series} img={comics[9].thumb}/>
+  //     <ComicCard  title={comics[10].series} img={comics[10].thumb}/>
+  //     <ComicCard  title={comics[11].series} img={comics[11].thumb}/>
+  //   </div>
+  // )
+  // }
+export default {comics.map((comic) => (
+    <ComicCard key={`comic-${comic.id}`} title={comic.series} img={comic.thumb} />
+))};
